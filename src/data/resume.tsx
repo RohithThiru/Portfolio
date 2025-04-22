@@ -8,7 +8,7 @@ export const DATA = {
   location: "Coimbatore, India",
   locationLink: "",
   description:
-    "Software Devloper, Open Source Enthusiast, Enjoys to build new applications",
+    "Software Developer, Open Source Enthusiast, Enjoys to build new applications",
   summary:
     "I am a dedicated Software Developer with hands-on experience gained through working on real-time projects during my internship, where I honed my skills in both frontend and backend technologies. Additionally, I have a strong foundation in problem-solving, having successfully solved over 400+ Data Structures and Algorithms (DSA) problems on various competitive coding platforms. My passion for coding and eagerness to build and optimize a wide range of applications drives me to continuously enhance my expertise and contribute effectively to innovative projects.",
   avatarUrl: "https://ik.imagekit.io/clcu1oent/Photo%20from%20Rohith.jpg?updatedAt=1744716401846",
