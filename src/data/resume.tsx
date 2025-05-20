@@ -96,7 +96,7 @@ export const DATA = {
       location: "Remote",
       title: "Backend Developer",
       logoUrl: "",
-      start: "Apr 2024",
+      start: "Apr 2025",
       end: "Current",
       description:
         "I worked as a backend developer at GameUp, where we built a web application tailored for schools to enhance student engagement through gamified learning experiences. The backend was developed using TypeScript, PostgreSQL, and Drizzle ORM. I was responsible for designing the database schema, building RESTful APIs, and implementing secure authentication and role-based access for students, teachers, and admins. The system was designed to be scalable, modular, and easy for schools to customize based on their specific requirements.",
