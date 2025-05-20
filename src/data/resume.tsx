@@ -19,6 +19,8 @@ export const DATA = {
     "Javascript",
     "Python",
     "MySQL",
+    "PostgreSQL",
+    "ORM",
     "Data Structures and Algorithms",
     "System Design",
     "Java",
@@ -86,6 +88,18 @@ export const DATA = {
       end: "Dec 2024",
       description:
         " I played the role of a Backend Developer where I built and designed a real-time room booking application. I developed the backend architecture and implemented REST APIs to handle network communication, enabling seamless interactions between users and the platform. Users could easily book their preferred rooms, while property owners were able to log and manage their room details on the website. This project allowed me to enhance my backend development skills and ensure the application performed efficiently under real-time conditions.",
+    },
+    {
+      company: "GameUP",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Backend Developer",
+      logoUrl: "",
+      start: "Apr 2024",
+      end: "Current",
+      description:
+        "I worked as a backend developer at GameUp, where we built a web application tailored for schools to enhance student engagement through gamified learning experiences. The backend was developed using TypeScript, PostgreSQL, and Drizzle ORM. I was responsible for designing the database schema, building RESTful APIs, and implementing secure authentication and role-based access for students, teachers, and admins. The system was designed to be scalable, modular, and easy for schools to customize based on their specific requirements.",
     },
   ],
   education: [
