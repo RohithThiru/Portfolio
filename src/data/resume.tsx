@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Rohith",
   initials: "T",
-  url: "https://dillion.io",
+  url: "https://rohiththiru.vercel.app/",
   location: "Coimbatore, India",
   locationLink: "",
   description:
     "Software Developer, Open Source Enthusiast, Enjoys to build new applications",
   summary:
-    "I am a dedicated Software Developer with hands-on experience gained through working on real-time projects during my internship, where I honed my skills in both frontend and backend technologies. Additionally, I have a strong foundation in problem-solving, having successfully solved over 400+ Data Structures and Algorithms (DSA) problems on various competitive coding platforms. My passion for coding and eagerness to build and optimize a wide range of applications drives me to continuously enhance my expertise and contribute effectively to innovative projects.",
-  avatarUrl: "https://ik.imagekit.io/clcu1oent/Photo%20from%20Rohith.jpg?updatedAt=1744716401846",
+    "I'm a Software Developer with hands-on experience building real-world applications like room booking systems and educational platforms. At Amazon's CCS team, I worked on catalog configuration support and automation. I’m skilled in Node.js, Express, MySQL, React, and have implemented features like payment gateways and email notifications. With a strong foundation in Data Structures, Algorithms, and system design, I’m passionate about building scalable and user-focused solutions.",
+  avatarUrl: "https://res.cloudinary.com/dve1jnmx2/image/upload/v1751712776/rohith-profile-image_Amazon_tbwt0f.jpg",
   skills: [
     "React",
     "Node.js",
@@ -66,16 +66,28 @@ export const DATA = {
 
   work: [
     {
-      company: "KG Xperience",
+      company: "Amazon",
       href: "https://kgx.nivu.me/",
       badges: [],
-      location: "Remote",
-      title: "MERN Stack Developer",
-      logoUrl: "https://kgx.nivu.me/assets/images/logo/kgx_white-logo.svg",
-      start: "May 2023",
-      end: "Jan 2025",
+      location: "Chennai, India",
+      title: "Application Engineer",
+      logoUrl: "https://cdn.imgbin.com/25/25/25/imgbin-amazon-com-logo-brand-amazon-publishing-amazon-books-design-MsJFcJeBr8dWEG8W4Tfg9S3ah.jpg",
+      start: "June 2025",
+      end: "Present",
       description:
-        "In this project, we addressed the challenge users face in searching for jobs across multiple platforms by developing an application that scrapes job details from various websites. The application provides users with a consolidated list of job opportunities, and if they wish to apply, they are seamlessly redirected to the respective job posting page. Additionally, during this internship, I also had the opportunity to mentor and teach frontend development to over 60 students, helping them gain practical skills in building modern web applications.",
+        "Worked in Amazon's Catalog Configuration Support (CCS) team, where I was responsible for resolving catalog configuration issues, ensuring product data accuracy, and maintaining seamless integration across catalog systems. Contributed to development and automation efforts, building tools and scripts to automate configuration processes, reduce manual workload, and improve operational efficiency.",
+    },
+    {
+      company: "GameUP",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Backend Developer",
+      logoUrl: "",
+      start: "Apr 2025",
+      end: "June 2025",
+      description:
+        "I worked as a backend developer at GameUp, where we built a web application tailored for schools to enhance student engagement through gamified learning experiences. The backend was developed using TypeScript, PostgreSQL, and Drizzle ORM. I was responsible for designing the database schema, building RESTful APIs, and implementing secure authentication and role-based access for students, teachers, and admins. The system was designed to be scalable, modular, and easy for schools to customize based on their specific requirements.",
     },
     {
       company: "Markdot Intellect",
@@ -90,17 +102,18 @@ export const DATA = {
         " I played the role of a Backend Developer where I built and designed a real-time room booking application. I developed the backend architecture and implemented REST APIs to handle network communication, enabling seamless interactions between users and the platform. Users could easily book their preferred rooms, while property owners were able to log and manage their room details on the website. This project allowed me to enhance my backend development skills and ensure the application performed efficiently under real-time conditions.",
     },
     {
-      company: "GameUP",
+      company: "KG Xperience",
+      href: "https://kgx.nivu.me/",
       badges: [],
-      href: "",
       location: "Remote",
-      title: "Backend Developer",
-      logoUrl: "",
-      start: "Apr 2025",
-      end: "Current",
+      title: "MERN Stack Developer",
+      logoUrl: "https://kgx.nivu.me/assets/images/logo/kgx_white-logo.svg",
+      start: "May 2023",
+      end: "Jan 2025",
       description:
-        "I worked as a backend developer at GameUp, where we built a web application tailored for schools to enhance student engagement through gamified learning experiences. The backend was developed using TypeScript, PostgreSQL, and Drizzle ORM. I was responsible for designing the database schema, building RESTful APIs, and implementing secure authentication and role-based access for students, teachers, and admins. The system was designed to be scalable, modular, and easy for schools to customize based on their specific requirements.",
+        "In this project, we addressed the challenge users face in searching for jobs across multiple platforms by developing an application that scrapes job details from various websites. The application provides users with a consolidated list of job opportunities, and if they wish to apply, they are seamlessly redirected to the respective job posting page. Additionally, during this internship, I also had the opportunity to mentor and teach frontend development to over 60 students, helping them gain practical skills in building modern web applications.",
     },
+,
   ],
   education: [
     {
