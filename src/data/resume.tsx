@@ -113,7 +113,6 @@ export const DATA = {
       description:
         "In this project, we addressed the challenge users face in searching for jobs across multiple platforms by developing an application that scrapes job details from various websites. The application provides users with a consolidated list of job opportunities, and if they wish to apply, they are seamlessly redirected to the respective job posting page. Additionally, during this internship, I also had the opportunity to mentor and teach frontend development to over 60 students, helping them gain practical skills in building modern web applications.",
     },
-,
   ],
   education: [
     {
