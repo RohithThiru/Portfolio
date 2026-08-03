@@ -5,12 +5,12 @@ export const DATA = {
   name: "Rohith",
   initials: "T",
   url: "https://rohiththiru.vercel.app/",
-  location: "Coimbatore, India",
+  location: "Gurugram, India",
   locationLink: "",
   description:
     "Software Developer, Open Source Enthusiast, Enjoys to build new applications",
   summary:
-    "I'm a Software Developer with hands-on experience building real-world applications like room booking systems and educational platforms. At Amazon's CCS team, I worked on catalog configuration support and automation. I’m skilled in Node.js, Express, MySQL, React, and have implemented features like payment gateways and email notifications. With a strong foundation in Data Structures, Algorithms, and system design, I’m passionate about building scalable and user-focused solutions.",
+    "I am Rohith, having a total of 1.5 years of experience in software development. In Amazon I worked in Amazon Catalog and Selection System  where I have closely worked into catalog data and it's system. Later I have shifted to Amazon 's Post Shipment Customer Experience team. Here we closely work in returns, CSBA Program that delivered to sellers by Amazon to up skill their experience in Amazon.I am interested in learning new skills and currently learning new technologies in AI Domain like MCP, RAG, Transformers and many other technologies.",
   avatarUrl: "https://res.cloudinary.com/dve1jnmx2/image/upload/v1751712776/rohith-profile-image_Amazon_tbwt0f.jpg",
   skills: [
     "React",
@@ -66,16 +66,28 @@ export const DATA = {
 
   work: [
     {
+     company: "Amazon",
+      href: "",
+      badges: [],
+      location: "Gurugram, India",
+      title: "Support Engineer",
+      logoUrl: "https://cdn.imgbin.com/25/25/25/imgbin-amazon-com-logo-brand-amazon-publishing-amazon-books-design-MsJFcJeBr8dWEG8W4Tfg9S3ah.jpg",
+      start: "Mar 2025",
+      end: "Prsent",
+      description:
+        "" 
+    },
+    {
       company: "Amazon",
-      href: "https://kgx.nivu.me/",
+      href: "",
       badges: [],
       location: "Chennai, India",
       title: "Application Engineer",
       logoUrl: "https://cdn.imgbin.com/25/25/25/imgbin-amazon-com-logo-brand-amazon-publishing-amazon-books-design-MsJFcJeBr8dWEG8W4Tfg9S3ah.jpg",
       start: "June 2025",
-      end: "Present",
+      end: "Mar 2025",
       description:
-        "Worked in Amazon's Catalog Configuration Support (CCS) team, where I was responsible for resolving catalog configuration issues, ensuring product data accuracy, and maintaining seamless integration across catalog systems. Contributed to development and automation efforts, building tools and scripts to automate configuration processes, reduce manual workload, and improve operational efficiency.",
+        "",
     },
     {
       company: "GameUP",
@@ -87,7 +99,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "June 2025",
       description:
-        "I worked as a backend developer at GameUp, where we built a web application tailored for schools to enhance student engagement through gamified learning experiences. The backend was developed using TypeScript, PostgreSQL, and Drizzle ORM. I was responsible for designing the database schema, building RESTful APIs, and implementing secure authentication and role-based access for students, teachers, and admins. The system was designed to be scalable, modular, and easy for schools to customize based on their specific requirements.",
+        "",
     },
     {
       company: "Markdot Intellect",
@@ -99,7 +111,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Dec 2024",
       description:
-        " I played the role of a Backend Developer where I built and designed a real-time room booking application. I developed the backend architecture and implemented REST APIs to handle network communication, enabling seamless interactions between users and the platform. Users could easily book their preferred rooms, while property owners were able to log and manage their room details on the website. This project allowed me to enhance my backend development skills and ensure the application performed efficiently under real-time conditions.",
+        "",
     },
     {
       company: "KG Xperience",
@@ -111,7 +123,7 @@ export const DATA = {
       start: "May 2023",
       end: "Jan 2025",
       description:
-        "In this project, we addressed the challenge users face in searching for jobs across multiple platforms by developing an application that scrapes job details from various websites. The application provides users with a consolidated list of job opportunities, and if they wish to apply, they are seamlessly redirected to the respective job posting page. Additionally, during this internship, I also had the opportunity to mentor and teach frontend development to over 60 students, helping them gain practical skills in building modern web applications.",
+        "",
     },
   ],
   education: [
@@ -132,18 +144,51 @@ export const DATA = {
       end: "2022",
     },
     {
-      school: "KG College of Arts and Science",
+      school: "KG Institute of Technology",
       href: "https://www.kgcas.com/",
       degree: "Bachelor's Degree of Information Technology (B.Sc IT)",
       logoUrl: "	https://www.kgcas.com/wp-content/uploads/2022/05/KGCAS-Transparent-Logo-e1652387103791.png?x20102",
       start: "2022",
       end: "2025",
     },
+    {
+      school: "S.R.M Institute of Technology",
+      href: "https://www.srmist.edu.in/",
+      degree: "Bachelor's Degree of Information Technology (B.Sc IT)",
+      logoUrl: "https://www.srmist.edu.in/wp-content/uploads/2022/01/srm-logo.svg",
+      start: "2025",
+      end: "2027",
+    }
+    
   ],
   projects: [
     {
+  title: "RAG Pipeline",
+  href: "https://github.com/RohithThiru/chatbot",
+  dates: "Sep 2025 – Dec 2025",
+  active: false,
+  description:
+    "Built a Retrieval-Augmented Generation (RAG) chatbot that enables users to query documents using natural language. Implemented document ingestion, text chunking, vector embeddings, semantic retrieval, and OpenAI-powered response generation to deliver context-aware answers.",
+  technologies: [
+    "Python",
+    "Flask",
+    "OpenAI API",
+    "LangChain",
+    "ChromaDB",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/RohithThiru/Multi-Model-RAG",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "https://ik.imagekit.io/clcu1oent/chatbot.png?updatedAt=1744714829177",
+  video: "",
+},
+    {
       title: "Chatbot",
-      href: "",
+      href: "https://github.com/RohithThiru/chatbot",
       dates: "Jan 2025- Feb 2025",
       active: true,
       description:
@@ -162,12 +207,11 @@ export const DATA = {
         },
       ],
       image: "https://ik.imagekit.io/clcu1oent/chatbot.png?updatedAt=1744714829177",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Fur Ever Bond",
-      href: "https://magicui.design",
+      href: "https://github.com/RohithThiru/fur-ever-bond",
       dates: "Jan 2025 - March 2025",
       active: true,
       description:
@@ -189,11 +233,11 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://ik.imagekit.io/clcu1oent/Fur%20ever%20bond.mp4?updatedAt=1744715581103",
+      video: "",
     },
     {
       title: "Medium Scrapper",
-      href: "https://llm.report",
+      href: "https://github.com/RohithThiru/MediumScraper",
       dates: "April 2024 - May 2024",
       active: true,
       description:
@@ -214,9 +258,11 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://ik.imagekit.io/clcu1oent/Mediun%20Scrapper.mp4?updatedAt=1744716026161",
+      video: "",
     },
   ],
+
+
   hackathons: [
     {
       title: "Avasar Hackathon",

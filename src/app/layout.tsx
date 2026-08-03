@@ -4,13 +4,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 
-const fontSans = FontSans({
-  subsets: ["latin"],
+const fontSans = {
   variable: "--font-sans",
-});
+};
+
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
@@ -54,13 +54,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+          "relative min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-4 sm:px-6 overflow-x-hidden",
           fontSans.variable
         )}
       >
+        {/* Ambient Gradient Background Glows */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed -top-40 left-1/2 -z-10 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-gradient-to-tr from-indigo-500/10 via-purple-500/10 to-pink-500/5 blur-3xl dark:from-indigo-600/15 dark:via-purple-600/10 dark:to-transparent"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed top-1/2 -right-40 -z-10 h-[400px] w-[500px] rounded-full bg-gradient-to-br from-blue-500/10 via-indigo-500/5 to-transparent blur-3xl dark:from-indigo-900/20 dark:to-transparent"
+        />
+
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
             {children}
@@ -71,3 +81,4 @@ export default function RootLayout({
     </html>
   );
 }
+
