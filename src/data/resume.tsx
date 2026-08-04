@@ -24,6 +24,9 @@ export const DATA = {
     "Data Structures and Algorithms",
     "System Design",
     "Java",
+    "AWS",
+    "CI/CD",
+    "Agentic Systems"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -136,7 +139,7 @@ export const DATA = {
       end: "2020",
     },
     {
-      school: "Immaculate Schoo of matriculation",
+      school: "Immaculate School of matriculation",
       href: "https://immaculatematriccbe.edu.in/",
       degree: "12th Grade",
       logoUrl: "https://content3.jdmagicbox.com/comp/coimbatore/n5/0422px422.x422.090923163345.b5n5/catalogue/immaculate-heart-of-marys-matriculation-higher-secondary-school-coimbatore-press-colony-coimbatore-senior-secondary-schools-r4v1uie61b.jpg",
@@ -154,7 +157,7 @@ export const DATA = {
     {
       school: "S.R.M Institute of Technology",
       href: "https://www.srmist.edu.in/",
-      degree: "Bachelor's Degree of Information Technology (B.Sc IT)",
+      degree: "Master's in Computer Application(Genrative AI)",
       logoUrl: "https://www.srmist.edu.in/wp-content/uploads/2022/01/srm-logo.svg",
       start: "2025",
       end: "2027",
